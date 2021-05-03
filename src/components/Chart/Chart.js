@@ -4,6 +4,8 @@ import ChartBar from './ChartBar';
 
 function Chart({ dataPoints }) {
 
+    const dataPointsValues = dataPoints.map(datapoint => datapoint.value);
+    const totalMaximum = Math.max(...dataPointsValues);
 
     return (
         <div className="chart">
@@ -11,7 +13,7 @@ function Chart({ dataPoints }) {
                 <ChartBar
                     key={label}
                     value={value}
-                    maxValue={null}
+                    maxValue={totalMaximum}
                     label={label}
                 />
             )}
