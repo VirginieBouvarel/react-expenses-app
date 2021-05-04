@@ -9,4 +9,4 @@
 > Technos utilisées : HTML/CSS/JS/React
 
 Projet réalisé dans le cadre du tutoriel de Maximilian Schwartzmüller :\
-" React - The Complete Guide (inlu Hooks, React Router, Redux"
+" React - The Complete Guide (inlus Hooks, React Router, Redux)"
